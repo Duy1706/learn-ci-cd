@@ -7,7 +7,7 @@ def calculate_sum_and_average(numbers):
             raise ValueError("Tất cả các phần tử trong dãy số phải là số nguyên.")
         if n <= 0:
             raise ValueError("Tất cả các số phải là số nguyên dương.")
-    total = sum(numbers) +100
+    total = sum(numbers)
     average = total / len(numbers)
     return total, average
 
